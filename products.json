@@ -16,6 +16,7 @@
     "name": "Creator OS \u2014 Notion Template",
     "paypal_link": "https://www.paypal.com/paypalme/REPLACE-ME/19",
     "price_cents": 1900,
+    "sample": true,
     "stripe_link": "https://buy.stripe.com/REPLACE-ME-notion-creator-kit",
     "tagline": "Plan, write and ship a month of content from one Notion workspace."
   },
@@ -36,6 +37,7 @@
     "name": "Moody Film \u2014 Lightroom Presets",
     "paypal_link": "https://www.paypal.com/paypalme/REPLACE-ME/29",
     "price_cents": 2900,
+    "sample": true,
     "stripe_link": "https://buy.stripe.com/REPLACE-ME-moody-film-presets",
     "tagline": "12 film-inspired presets for moody, cinematic photos on desktop and mobile."
   },
@@ -56,6 +58,7 @@
     "name": "Your First 1,000 Subscribers \u2014 E-book",
     "paypal_link": "https://www.paypal.com/paypalme/REPLACE-ME/12",
     "price_cents": 1200,
+    "sample": true,
     "stripe_link": "https://buy.stripe.com/REPLACE-ME-first-1000-subscribers",
     "tagline": "A practical 68-page playbook for growing a new channel from zero."
   }

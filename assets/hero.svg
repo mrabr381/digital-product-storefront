@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Digital Product Storefront — sell your downloads and keep every cent, a free storefront with 0 percent commission.">
+  <rect width="1200" height="630" fill="#111827"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#f59e0b"/>
+  <circle cx="100" cy="100" r="34" fill="none" stroke="#f59e0b" stroke-width="6"/>
+  <path d="M 82 118 L 82 92 L 100 82 L 118 92 L 118 118" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">Digital Product Storefront</text>
+  <text x="600" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#f59e0b">Sell your downloads and keep every cent —</text>
+  <text x="600" y="395" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#f59e0b">a free storefront with 0% commission.</text>
+  <text x="600" y="540" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#9ca3af">Free &#183; Open source (MIT) &#183; No monthly fee</text>
+</svg>

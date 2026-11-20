@@ -25,6 +25,7 @@ SAMPLE_PRODUCTS = [
         ],
         "stripe_link": "https://buy.stripe.com/REPLACE-ME-notion-creator-kit",
         "paypal_link": "https://www.paypal.com/paypalme/REPLACE-ME/19",
+        "sample": True,
     },
     {
         "id": "moody-film-presets",
@@ -45,6 +46,7 @@ SAMPLE_PRODUCTS = [
         ],
         "stripe_link": "https://buy.stripe.com/REPLACE-ME-moody-film-presets",
         "paypal_link": "https://www.paypal.com/paypalme/REPLACE-ME/29",
+        "sample": True,
     },
     {
         "id": "first-1000-subscribers",
@@ -65,6 +67,7 @@ SAMPLE_PRODUCTS = [
         ],
         "stripe_link": "https://buy.stripe.com/REPLACE-ME-first-1000-subscribers",
         "paypal_link": "https://www.paypal.com/paypalme/REPLACE-ME/12",
+        "sample": True,
     },
 ]
 

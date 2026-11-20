@@ -100,6 +100,15 @@ def _cart_section():
 """
 
 
+def _sample_badge(p):
+    """Sample products are labelled on every card and page, so the demo
+    store never looks like a fake shop. Real products added later have
+    no 'sample' flag and get no badge."""
+    if not p.get("sample"):
+        return ""
+    return """<p class="sample-badge">Sample product — demo only, not for sale.</p>"""
+
+
 def render_index(products):
     cards = []
     for p in products:
@@ -107,6 +116,7 @@ def render_index(products):
   <img src="/%s" alt="%s cover" width="600" height="450">
   <div class="card-body">
     <h3>%s</h3>
+    %s
     <p>%s</p>
     <p class="price">%s</p>
     <div class="btn-row">
@@ -115,7 +125,8 @@ def render_index(products):
     </div>
   </div>
 </article>""" % (
-            _esc(p["cover"]), _esc(p["name"]), _esc(p["name"]), _esc(p["tagline"]),
+            _esc(p["cover"]), _esc(p["name"]), _esc(p["name"]),
+            _sample_badge(p), _esc(p["tagline"]),
             format_price(p["price_cents"], p.get("currency", "USD")),
             _esc(p["id"]), _esc(p["id"]),
         ))
@@ -139,6 +150,7 @@ def render_product(p, products):
   <div><img src="/%s" alt="%s cover" width="600" height="450"></div>
   <div>
     <h2>%s</h2>
+    %s
     <p><em>%s</em></p>
     <p>%s</p>
     <ul class="features">
@@ -167,7 +179,8 @@ def render_product(p, products):
 </article>
 <p><a href="/">&larr; Back to all products</a></p>
 %s""" % (
-        _esc(p["cover"]), _esc(p["name"]), _esc(p["name"]), _esc(p["tagline"]),
+        _esc(p["cover"]), _esc(p["name"]), _esc(p["name"]),
+        _sample_badge(p), _esc(p["tagline"]),
         _esc(p["description"]), features,
         _esc(p.get("format", "Digital download")),
         _esc(p.get("file_size", "—")),
