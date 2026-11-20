@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Sample Store — digital products, 0% commission</title>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1><a href="/">The Sample Store</a></h1>
+    <nav><a href="/">Products</a> <a href="#cart">Cart (<span id="cart-count">0</span>)</a></nav>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <h2>Sell downloads. Keep 100% of the sale.</h2>
+  <p>No monthly fee, no per-sale commission. This store runs on free static
+  hosting and your own Stripe / PayPal links — the only fee is your payment
+  processor's own charge. Three sample products below; swap them for yours
+  with <code>python -m storefront add-product</code>.</p>
+</section>
+<section class="grid">
+<article class="card">
+  <img src="/assets/covers/notion-creator-kit.svg" alt="Creator OS — Notion Template cover" width="600" height="450">
+  <div class="card-body">
+    <h3>Creator OS — Notion Template</h3>
+    <p>Plan, write and ship a month of content from one Notion workspace.</p>
+    <p class="price">$19.00</p>
+    <div class="btn-row">
+      <a class="btn btn-secondary" href="/products/notion-creator-kit.html">View</a>
+      <button class="btn" data-add="notion-creator-kit">Add to cart</button>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <img src="/assets/covers/moody-film-presets.svg" alt="Moody Film — Lightroom Presets cover" width="600" height="450">
+  <div class="card-body">
+    <h3>Moody Film — Lightroom Presets</h3>
+    <p>12 film-inspired presets for moody, cinematic photos on desktop and mobile.</p>
+    <p class="price">$29.00</p>
+    <div class="btn-row">
+      <a class="btn btn-secondary" href="/products/moody-film-presets.html">View</a>
+      <button class="btn" data-add="moody-film-presets">Add to cart</button>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <img src="/assets/covers/first-1000-subscribers.svg" alt="Your First 1,000 Subscribers — E-book cover" width="600" height="450">
+  <div class="card-body">
+    <h3>Your First 1,000 Subscribers — E-book</h3>
+    <p>A practical 68-page playbook for growing a new channel from zero.</p>
+    <p class="price">$12.00</p>
+    <div class="btn-row">
+      <a class="btn btn-secondary" href="/products/first-1000-subscribers.html">View</a>
+      <button class="btn" data-add="first-1000-subscribers">Add to cart</button>
+    </div>
+  </div>
+</article>
+</section>
+<section class="cart" id="cart">
+  <h2>Your cart</h2>
+  <p id="cart-empty">Your cart is empty.</p>
+  <table id="cart-table" style="display: none">
+    <thead><tr><th>Product</th><th>Qty</th><th>Price</th><th></th></tr></thead>
+    <tbody id="cart-items"></tbody>
+  </table>
+  <p class="total">Total: <span id="cart-total">$0.00</span></p>
+  <p>Checkout is handled by your own payment links — open a product and pay
+  with Stripe or PayPal. No account here, no platform fee, no tracking.</p>
+</section>
+
+</main>
+<footer>
+  <p>The Sample Store — a demo storefront. 0% platform commission: you keep
+  every sale minus only your payment processor's own fee. Checkout links are
+  placeholders until the seller adds their own Stripe Payment Links / PayPal buttons.</p>
+  <p>Built with the free digital-product storefront. No tracking, no cookies, no accounts.</p>
+</footer>
+<script>window.STOREFRONT_PRODUCTS = [{"currency": "USD", "id": "notion-creator-kit", "name": "Creator OS \u2014 Notion Template", "price_cents": 1900}, {"currency": "USD", "id": "moody-film-presets", "name": "Moody Film \u2014 Lightroom Presets", "price_cents": 2900}, {"currency": "USD", "id": "first-1000-subscribers", "name": "Your First 1,000 Subscribers \u2014 E-book", "price_cents": 1200}];</script>
+<script src="/assets/store.js"></script>
+</body>
+</html>

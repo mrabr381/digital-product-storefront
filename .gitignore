@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Secrets — never commit these (the store needs none, but keep the rule)
+.env
+
+# Local test output
+/tmp/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

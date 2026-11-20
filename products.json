@@ -1,0 +1,62 @@
+[
+  {
+    "cover": "assets/covers/notion-creator-kit.svg",
+    "currency": "USD",
+    "description": "A complete Notion workspace for creators: a 30-day content calendar, an idea bank with a hook library, a publishing checklist, and a simple analytics tracker. Duplicate it into your own Notion in one click and start planning today. Works with a free Notion account.",
+    "features": [
+      "30-day content calendar with status tracking",
+      "Idea bank with 50 ready-to-use hooks",
+      "Publishing checklist for every video or post",
+      "Simple analytics tracker (views, subs, watch time)",
+      "Free updates for life"
+    ],
+    "file_size": "1 Notion workspace + 6-page PDF",
+    "format": "Notion template (duplicate link + PDF setup guide)",
+    "id": "notion-creator-kit",
+    "name": "Creator OS \u2014 Notion Template",
+    "paypal_link": "https://www.paypal.com/paypalme/REPLACE-ME/19",
+    "price_cents": 1900,
+    "stripe_link": "https://buy.stripe.com/REPLACE-ME-notion-creator-kit",
+    "tagline": "Plan, write and ship a month of content from one Notion workspace."
+  },
+  {
+    "cover": "assets/covers/moody-film-presets.svg",
+    "currency": "USD",
+    "description": "Twelve Lightroom presets inspired by 35mm film: muted greens, warm skin tones and soft contrast that work on portraits, street and travel shots. Includes desktop (.xmp) and mobile (.dng) versions plus a 10-minute install guide. One purchase, use on as many of your own photos as you like.",
+    "features": [
+      "12 presets: 6 colour, 4 black & white, 2 warm",
+      "Desktop (.xmp) and mobile (.dng) versions included",
+      "Before/after reference photos for every preset",
+      "10-minute install guide (PDF + video link)",
+      "Free updates for life"
+    ],
+    "file_size": "48 MB download (ZIP)",
+    "format": "12 \u00d7 .xmp (desktop) + 12 \u00d7 .dng (mobile) + PDF guide",
+    "id": "moody-film-presets",
+    "name": "Moody Film \u2014 Lightroom Presets",
+    "paypal_link": "https://www.paypal.com/paypalme/REPLACE-ME/29",
+    "price_cents": 2900,
+    "stripe_link": "https://buy.stripe.com/REPLACE-ME-moody-film-presets",
+    "tagline": "12 film-inspired presets for moody, cinematic photos on desktop and mobile."
+  },
+  {
+    "cover": "assets/covers/first-1000-subscribers.svg",
+    "currency": "USD",
+    "description": "No hacks, no bought subs: a step-by-step playbook for the first 1,000 subscribers. Covers picking a niche that searches, titles and thumbnails that earn the click, a realistic upload schedule, and the five analytics numbers that actually matter. Includes printable worksheets for each chapter.",
+    "features": [
+      "12 chapters, 68 pages, zero fluff",
+      "Printable worksheet for every chapter",
+      "Real examples from small channels (not gurus)",
+      "A 30-day launch plan you can start today",
+      "Free updates for life"
+    ],
+    "file_size": "4.2 MB download (PDF)",
+    "format": "PDF e-book, 68 pages",
+    "id": "first-1000-subscribers",
+    "name": "Your First 1,000 Subscribers \u2014 E-book",
+    "paypal_link": "https://www.paypal.com/paypalme/REPLACE-ME/12",
+    "price_cents": 1200,
+    "stripe_link": "https://buy.stripe.com/REPLACE-ME-first-1000-subscribers",
+    "tagline": "A practical 68-page playbook for growing a new channel from zero."
+  }
+]

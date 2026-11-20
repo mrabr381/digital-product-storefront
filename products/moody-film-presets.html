@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moody Film — Lightroom Presets — The Sample Store</title>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1><a href="/">The Sample Store</a></h1>
+    <nav><a href="/">Products</a> <a href="#cart">Cart (<span id="cart-count">0</span>)</a></nav>
+  </div>
+</header>
+<main>
+<article class="product">
+  <div><img src="/assets/covers/moody-film-presets.svg" alt="Moody Film — Lightroom Presets cover" width="600" height="450"></div>
+  <div>
+    <h2>Moody Film — Lightroom Presets</h2>
+    <p><em>12 film-inspired presets for moody, cinematic photos on desktop and mobile.</em></p>
+    <p>Twelve Lightroom presets inspired by 35mm film: muted greens, warm skin tones and soft contrast that work on portraits, street and travel shots. Includes desktop (.xmp) and mobile (.dng) versions plus a 10-minute install guide. One purchase, use on as many of your own photos as you like.</p>
+    <ul class="features">
+    <li>12 presets: 6 colour, 4 black &amp; white, 2 warm</li>
+    <li>Desktop (.xmp) and mobile (.dng) versions included</li>
+    <li>Before/after reference photos for every preset</li>
+    <li>10-minute install guide (PDF + video link)</li>
+    <li>Free updates for life</li>
+    </ul>
+    <p><strong>Format:</strong> 12 × .xmp (desktop) + 12 × .dng (mobile) + PDF guide<br><strong>Size:</strong> 48 MB download (ZIP)</p>
+    <p class="price">$29.00</p>
+    <div class="btn-row">
+      <button class="btn" data-add="moody-film-presets">Add to cart</button>
+      <a class="btn btn-secondary" href="https://buy.stripe.com/REPLACE-ME-moody-film-presets">Buy with Stripe</a>
+      <a class="btn btn-secondary" href="https://www.paypal.com/paypalme/REPLACE-ME/29">Buy with PayPal</a>
+    </div>
+    <div class="note">
+      <p><strong>Demo checkout links.</strong> These buttons point at
+      placeholder Stripe / PayPal links — replace <code>stripe_link</code> and
+      <code>paypal_link</code> in <code>products.json</code> with your own
+      Payment Links to take real payments.</p>
+    </div>
+    <h3>License key (demo)</h3>
+    <p>Keys are <strong>demo-grade, not DRM</strong>: this button generates a
+    key in the store's format so you can see what a buyer would receive.
+    Real delivery should come from your email / payment processor.</p>
+    <p><button class="btn btn-secondary" id="demo-key-btn">Generate demo key</button></p>
+    <p class="keybox" id="demo-key-out">No key generated yet.</p>
+  </div>
+</article>
+<p><a href="/">&larr; Back to all products</a></p>
+<section class="cart" id="cart">
+  <h2>Your cart</h2>
+  <p id="cart-empty">Your cart is empty.</p>
+  <table id="cart-table" style="display: none">
+    <thead><tr><th>Product</th><th>Qty</th><th>Price</th><th></th></tr></thead>
+    <tbody id="cart-items"></tbody>
+  </table>
+  <p class="total">Total: <span id="cart-total">$0.00</span></p>
+  <p>Checkout is handled by your own payment links — open a product and pay
+  with Stripe or PayPal. No account here, no platform fee, no tracking.</p>
+</section>
+
+</main>
+<footer>
+  <p>The Sample Store — a demo storefront. 0% platform commission: you keep
+  every sale minus only your payment processor's own fee. Checkout links are
+  placeholders until the seller adds their own Stripe Payment Links / PayPal buttons.</p>
+  <p>Built with the free digital-product storefront. No tracking, no cookies, no accounts.</p>
+</footer>
+<script>window.STOREFRONT_PRODUCTS = [{"currency": "USD", "id": "notion-creator-kit", "name": "Creator OS \u2014 Notion Template", "price_cents": 1900}, {"currency": "USD", "id": "moody-film-presets", "name": "Moody Film \u2014 Lightroom Presets", "price_cents": 2900}, {"currency": "USD", "id": "first-1000-subscribers", "name": "Your First 1,000 Subscribers \u2014 E-book", "price_cents": 1200}];</script>
+<script src="/assets/store.js"></script>
+</body>
+</html>

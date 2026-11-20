@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your First 1,000 Subscribers — E-book — The Sample Store</title>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1><a href="/">The Sample Store</a></h1>
+    <nav><a href="/">Products</a> <a href="#cart">Cart (<span id="cart-count">0</span>)</a></nav>
+  </div>
+</header>
+<main>
+<article class="product">
+  <div><img src="/assets/covers/first-1000-subscribers.svg" alt="Your First 1,000 Subscribers — E-book cover" width="600" height="450"></div>
+  <div>
+    <h2>Your First 1,000 Subscribers — E-book</h2>
+    <p><em>A practical 68-page playbook for growing a new channel from zero.</em></p>
+    <p>No hacks, no bought subs: a step-by-step playbook for the first 1,000 subscribers. Covers picking a niche that searches, titles and thumbnails that earn the click, a realistic upload schedule, and the five analytics numbers that actually matter. Includes printable worksheets for each chapter.</p>
+    <ul class="features">
+    <li>12 chapters, 68 pages, zero fluff</li>
+    <li>Printable worksheet for every chapter</li>
+    <li>Real examples from small channels (not gurus)</li>
+    <li>A 30-day launch plan you can start today</li>
+    <li>Free updates for life</li>
+    </ul>
+    <p><strong>Format:</strong> PDF e-book, 68 pages<br><strong>Size:</strong> 4.2 MB download (PDF)</p>
+    <p class="price">$12.00</p>
+    <div class="btn-row">
+      <button class="btn" data-add="first-1000-subscribers">Add to cart</button>
+      <a class="btn btn-secondary" href="https://buy.stripe.com/REPLACE-ME-first-1000-subscribers">Buy with Stripe</a>
+      <a class="btn btn-secondary" href="https://www.paypal.com/paypalme/REPLACE-ME/12">Buy with PayPal</a>
+    </div>
+    <div class="note">
+      <p><strong>Demo checkout links.</strong> These buttons point at
+      placeholder Stripe / PayPal links — replace <code>stripe_link</code> and
+      <code>paypal_link</code> in <code>products.json</code> with your own
+      Payment Links to take real payments.</p>
+    </div>
+    <h3>License key (demo)</h3>
+    <p>Keys are <strong>demo-grade, not DRM</strong>: this button generates a
+    key in the store's format so you can see what a buyer would receive.
+    Real delivery should come from your email / payment processor.</p>
+    <p><button class="btn btn-secondary" id="demo-key-btn">Generate demo key</button></p>
+    <p class="keybox" id="demo-key-out">No key generated yet.</p>
+  </div>
+</article>
+<p><a href="/">&larr; Back to all products</a></p>
+<section class="cart" id="cart">
+  <h2>Your cart</h2>
+  <p id="cart-empty">Your cart is empty.</p>
+  <table id="cart-table" style="display: none">
+    <thead><tr><th>Product</th><th>Qty</th><th>Price</th><th></th></tr></thead>
+    <tbody id="cart-items"></tbody>
+  </table>
+  <p class="total">Total: <span id="cart-total">$0.00</span></p>
+  <p>Checkout is handled by your own payment links — open a product and pay
+  with Stripe or PayPal. No account here, no platform fee, no tracking.</p>
+</section>
+
+</main>
+<footer>
+  <p>The Sample Store — a demo storefront. 0% platform commission: you keep
+  every sale minus only your payment processor's own fee. Checkout links are
+  placeholders until the seller adds their own Stripe Payment Links / PayPal buttons.</p>
+  <p>Built with the free digital-product storefront. No tracking, no cookies, no accounts.</p>
+</footer>
+<script>window.STOREFRONT_PRODUCTS = [{"currency": "USD", "id": "notion-creator-kit", "name": "Creator OS \u2014 Notion Template", "price_cents": 1900}, {"currency": "USD", "id": "moody-film-presets", "name": "Moody Film \u2014 Lightroom Presets", "price_cents": 2900}, {"currency": "USD", "id": "first-1000-subscribers", "name": "Your First 1,000 Subscribers \u2014 E-book", "price_cents": 1200}];</script>
+<script src="/assets/store.js"></script>
+</body>
+</html>
